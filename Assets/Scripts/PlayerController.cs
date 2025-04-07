@@ -4,7 +4,8 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/* Joshua Holdenried
+
+/* Joshua Holdenried && Xavier Poston 
  * First Updated: 4/6/25
  * Last Updated:  4/6/25
  * This script allows the player to move around the levels
@@ -13,26 +14,33 @@ public class PlayerController : MonoBehaviour
 {
 
     public float speed = 5f;
-    public int lives = 3;
+    public int lives;
     public float JumpForce = 10;
     public float killHeight = -5;
     private Rigidbody rigidbody;
     private Vector3 respawnPoint;
 
+    private PlayerLivesManager livesManager;
 
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+
+        livesManager = GetComponent<PlayerLivesManager>();
 
         respawnPoint = transform.position;
     }
     // Update is called once per frame
     void Update()
     {
-        Move();
+      
 
         if (transform.position.y < killHeight)
             LoseLife();
+    }
+    void FixedUpdate()
+    {
+        Move();
     }
     private void Move()
     {
@@ -54,10 +62,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+   
+
     public void LoseLife()
     {
         // Reduce's players lives by 1
         lives--;
+
+        if (livesManager != null)
+        {
+            livesManager.LoseLife(); // Updates UI
+        }
         // Check if lives > 0 
         if (lives > 0)
         {
