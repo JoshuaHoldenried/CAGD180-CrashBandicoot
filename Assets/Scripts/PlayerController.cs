@@ -33,14 +33,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
-
         if (transform.position.y < killHeight)
             LoseLife();
     }
     void FixedUpdate()
     {
         Move();
+        Jump();
     }
     private void Move()
     {
@@ -62,7 +61,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-   
+    private void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && OnGround())
+        {
+            print("Jumped");
+            rigidbody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
+        }
+    }
+
+    private bool OnGround()
+    {
+        bool onGround = false;
+
+        RaycastHit hit;
+
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 1.2f))
+        {
+            onGround = true;
+        }
+
+        return onGround;
+    }
+
+
 
     public void LoseLife()
     {
@@ -87,5 +109,6 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
 }
 
