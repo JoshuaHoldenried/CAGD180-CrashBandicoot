@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,13 +10,16 @@ using UnityEngine.SceneManagement;
  */
 public class PlayerController : MonoBehaviour
 {
-
+    public GameObject crashBandicoot;
+    public Color newColor;
+    public Color trueColor;
     public float speed = 5f;
     public int lives;
     public float JumpForce = 10;
     public float killHeight = -5;
     private Rigidbody rigidbody;
     private Vector3 respawnPoint;
+    public bool attacking;
 
     private PlayerLivesManager livesManager;
 
@@ -35,11 +36,13 @@ public class PlayerController : MonoBehaviour
     {
         if (transform.position.y < killHeight)
             LoseLife();
+        
     }
     void FixedUpdate()
     {
         Move(); 
         Jump();
+        Attack();
     }
     private void Move()
     {
@@ -70,6 +73,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+
+
+    public void Attack()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            print("Attack");
+            attacking = true;
+            StopAttack();
+            attacking = false;
+        }
+         }
+
+    private IEnumerator StopAttack()
+    {
+        // Start the timer to wait
+        print("Timer Started");
+        yield return new WaitForSeconds(3);
+        print("Timer Ended");
+
+    }
+   
     private bool OnGround()
     {
         bool onGround = false;

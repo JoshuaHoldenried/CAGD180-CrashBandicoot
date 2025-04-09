@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Cinemachine.CinemachineFreeLook;
 
 /* Joshua Holdenried && Xavier Poston 
  * First Updated: 4/8/25
@@ -10,6 +11,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int Life = 1;
+    public PlayerController player;
 
     // Start is called before the first frame update
     void Start()
@@ -20,20 +22,22 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
-
+        if(Life == 0)
+        {
+            Destroy(gameObject);
+        }
     }
-
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<PlayerController>())
+        if (other.GetComponent<PlayerController>())
         {
+
+            if(player.attacking = true)
             Life--;
         }
-        if (Life == 0)
-            Destroy(gameObject);
     }
+
 
 }

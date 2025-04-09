@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7197240924866379533}
   - component: {fileID: 2652389985673331335}
   - component: {fileID: 8876742294222075497}
-  - component: {fileID: 3759775363078964029}
   - component: {fileID: 3188286955313978847}
+  - component: {fileID: 3759775363078964029}
   - component: {fileID: 5992859387373113788}
   m_Layer: 0
   m_Name: Player
@@ -86,6 +86,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3188286955313978847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001788842987352823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb90a73f2db4c9499d6e0f1015f8ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crashBandicoot: {fileID: 1001788842987352823}
+  newColor: {r: 1, g: 0, b: 0, a: 0}
+  speed: 5
+  lives: 3
+  JumpForce: 10
+  killHeight: -5
 --- !u!136 &3759775363078964029
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -109,22 +127,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3188286955313978847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001788842987352823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acb90a73f2db4c9499d6e0f1015f8ebf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  lives: 3
-  JumpForce: 10
-  killHeight: -5
 --- !u!54 &5992859387373113788
 Rigidbody:
   m_ObjectHideFlags: 0
