@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2252429945550105463}
   - component: {fileID: 4757858402145252768}
   - component: {fileID: 2440378945364528167}
-  - component: {fileID: 7155303929762992767}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7155303929762992767
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903525175090211219}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1677633336786070110
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +94,6 @@ GameObject:
   - component: {fileID: 5667434026751725241}
   - component: {fileID: 456226104181629943}
   - component: {fileID: 393544254851414587}
-  - component: {fileID: 692865120521656824}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -189,27 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &692865120521656824
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677633336786070110}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1690456142852358626
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +177,6 @@ GameObject:
   - component: {fileID: 524423749152994681}
   - component: {fileID: 3054189400021349676}
   - component: {fileID: 7490811410194245104}
-  - component: {fileID: 2271849202323020889}
   m_Layer: 0
   m_Name: Wumpa Fruit Base (Red)
   m_TagString: Untagged
@@ -294,27 +249,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2271849202323020889
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690456142852358626}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3582152294501844540
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +260,6 @@ GameObject:
   - component: {fileID: 6820703009436669952}
   - component: {fileID: 6356916537917354804}
   - component: {fileID: 3702502435246033197}
-  - component: {fileID: 4185708663983922367}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -399,27 +332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4185708663983922367
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3582152294501844540}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5560650317196421104
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +343,6 @@ GameObject:
   - component: {fileID: 6507704822021773577}
   - component: {fileID: 9023288518966954281}
   - component: {fileID: 7273565771241198606}
-  - component: {fileID: 1801441357156526294}
   m_Layer: 0
   m_Name: Wumpa Fruit Base (Green)
   m_TagString: Untagged
@@ -504,27 +415,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1801441357156526294
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5560650317196421104}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5585226437531078643
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,7 +426,6 @@ GameObject:
   - component: {fileID: 195979720236541810}
   - component: {fileID: 4545647363916346551}
   - component: {fileID: 5764722268432502681}
-  - component: {fileID: 3072834372854359675}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -609,27 +498,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3072834372854359675
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5585226437531078643}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5752387411363070646
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +509,6 @@ GameObject:
   - component: {fileID: 1012043303890539153}
   - component: {fileID: 3613116247338436309}
   - component: {fileID: 2600102702722024552}
-  - component: {fileID: 5153169535643758632}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -714,27 +581,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5153169535643758632
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5752387411363070646}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5961719016200887398
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,7 +592,6 @@ GameObject:
   - component: {fileID: 5353581087197395365}
   - component: {fileID: 5914467338379245053}
   - component: {fileID: 6093289505445746400}
-  - component: {fileID: 8364617325268325633}
   m_Layer: 0
   m_Name: Wumpa Fruit Top (Green)
   m_TagString: Untagged
@@ -819,27 +664,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &8364617325268325633
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5961719016200887398}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6075214746131021838
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +675,6 @@ GameObject:
   - component: {fileID: 5834476645610475544}
   - component: {fileID: 7525793143364586317}
   - component: {fileID: 213028482244519952}
-  - component: {fileID: 5530771768845880872}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -924,27 +747,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5530771768845880872
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6075214746131021838}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6186333234827956988
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +756,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5270458998256110816}
+  - component: {fileID: 1468919686794814968}
+  - component: {fileID: 1161429614595784793}
   m_Layer: 0
   m_Name: Wumpa Fruit
   m_TagString: Untagged
@@ -971,7 +775,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.82, z: 3.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.07, y: 3.07, z: 3.07}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 221453714471708788}
@@ -999,6 +803,41 @@ Transform:
   - {fileID: 2416571175347692824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1468919686794814968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6186333234827956988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3f636f287277843b9034209abf22ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WumpaFruitValue: 1
+  wumpaFruit: 0
+--- !u!135 &1161429614595784793
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6186333234827956988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6354017254708984494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,7 +849,6 @@ GameObject:
   - component: {fileID: 7573779266306702694}
   - component: {fileID: 6909626519235676461}
   - component: {fileID: 5998828332376805206}
-  - component: {fileID: 835581406189147299}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1083,27 +921,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &835581406189147299
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6354017254708984494}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6807170246067757947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +932,6 @@ GameObject:
   - component: {fileID: 5690102100595766341}
   - component: {fileID: 7514887043770526330}
   - component: {fileID: 1679492284714064677}
-  - component: {fileID: 1222743104158504256}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1188,27 +1004,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1222743104158504256
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6807170246067757947}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6820250290974510553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,7 +1015,6 @@ GameObject:
   - component: {fileID: 3327296273675494283}
   - component: {fileID: 7750489051955296407}
   - component: {fileID: 5786689769156732630}
-  - component: {fileID: 198803278581798792}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1293,27 +1087,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &198803278581798792
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6820250290974510553}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6900528627315636533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1098,6 @@ GameObject:
   - component: {fileID: 2416571175347692824}
   - component: {fileID: 8240852100565531261}
   - component: {fileID: 4488943510736549986}
-  - component: {fileID: 8638345007858737943}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1398,27 +1170,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8638345007858737943
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6900528627315636533}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7478157608608495478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1181,6 @@ GameObject:
   - component: {fileID: 7616750999472209873}
   - component: {fileID: 1963478335695793394}
   - component: {fileID: 8879780698777482046}
-  - component: {fileID: 8984887790217182607}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1503,27 +1253,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8984887790217182607
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7478157608608495478}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7719425175536234846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1264,6 @@ GameObject:
   - component: {fileID: 2196589159310790304}
   - component: {fileID: 2467829258708805946}
   - component: {fileID: 8884922840307680120}
-  - component: {fileID: 6971831288628944901}
   m_Layer: 0
   m_Name: Wumpa Fruit Top (Green)
   m_TagString: Untagged
@@ -1608,27 +1336,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &6971831288628944901
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7719425175536234846}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7901218941977534841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,7 +1347,6 @@ GameObject:
   - component: {fileID: 221453714471708788}
   - component: {fileID: 4187688236766913808}
   - component: {fileID: 253011001510837606}
-  - component: {fileID: 205292287832528657}
   m_Layer: 0
   m_Name: Wumpa Fruit Base (Yellow)
   m_TagString: Untagged
@@ -1713,27 +1419,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &205292287832528657
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7901218941977534841}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8061711822921737120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,7 +1430,6 @@ GameObject:
   - component: {fileID: 2441271255045083083}
   - component: {fileID: 5583529115905382409}
   - component: {fileID: 4775140610130989377}
-  - component: {fileID: 7152775650854869247}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1818,27 +1502,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7152775650854869247
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8061711822921737120}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8296728307747305772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,7 +1513,6 @@ GameObject:
   - component: {fileID: 6398569278256315876}
   - component: {fileID: 7587891733628232328}
   - component: {fileID: 7726121848276823228}
-  - component: {fileID: 7277285858300325403}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -1923,27 +1585,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7277285858300325403
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296728307747305772}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8322024486399033922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,7 +1596,6 @@ GameObject:
   - component: {fileID: 4281854290611782264}
   - component: {fileID: 2210189364739773121}
   - component: {fileID: 4143750487224249431}
-  - component: {fileID: 7770280850326924770}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -2028,27 +1668,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7770280850326924770
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8322024486399033922}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8337362040606234437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,7 +1679,6 @@ GameObject:
   - component: {fileID: 421179648904560380}
   - component: {fileID: 7990893196986350240}
   - component: {fileID: 3120605942642730649}
-  - component: {fileID: 8306948966711452449}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -2133,27 +1751,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8306948966711452449
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8337362040606234437}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8470474305911802290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,7 +1762,6 @@ GameObject:
   - component: {fileID: 8487786810224255172}
   - component: {fileID: 2622323661687439261}
   - component: {fileID: 2663916141291903558}
-  - component: {fileID: 6317145741465864234}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -2238,27 +1834,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6317145741465864234
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8470474305911802290}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8630372710162559810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,7 +1845,6 @@ GameObject:
   - component: {fileID: 8290412548834348709}
   - component: {fileID: 4062056668157991854}
   - component: {fileID: 231875712299068446}
-  - component: {fileID: 1559884420061669036}
   m_Layer: 0
   m_Name: Stem
   m_TagString: Untagged
@@ -2343,29 +1917,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1559884420061669036
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8630372710162559810}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &8913379084544944838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2377,7 +1928,6 @@ GameObject:
   - component: {fileID: 1956193109774520938}
   - component: {fileID: 3641516700577967144}
   - component: {fileID: 8093162268949746262}
-  - component: {fileID: 4470067632991067729}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -2450,24 +2000,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4470067632991067729
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913379084544944838}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
