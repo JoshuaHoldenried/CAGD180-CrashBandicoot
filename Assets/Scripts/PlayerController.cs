@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
-        Move();
+        Move(); 
         Jump();
     }
     private void Move()
