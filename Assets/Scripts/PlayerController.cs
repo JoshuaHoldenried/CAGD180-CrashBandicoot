@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody>();
 
-        livesManager = GetComponent<PlayerLivesManager>();
+        livesManager = FindObjectOfType<PlayerLivesManager>();
 
         respawnPoint = transform.position;
     }
