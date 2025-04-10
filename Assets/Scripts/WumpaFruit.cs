@@ -22,8 +22,6 @@ public class WumpaFruit : MonoBehaviour
         //check if touched object was the player
         if (other.GetComponent<PlayerController>())
         {
-            //Add WumpaFruit to player 
-            other.GetComponent<WumpaFruit>().wumpaFruit++;
 
             WumpaFruitManger WumpaFruitManager = FindObjectOfType<WumpaFruitManger>();
             if (WumpaFruitManager != null)
