@@ -19,9 +19,20 @@ public class PlayerController : MonoBehaviour
     public float killHeight = -5;
     private Rigidbody rigidbody;
     private Vector3 respawnPoint;
-    public bool attacking;
+    public bool attacking = false;
 
     private PlayerLivesManager livesManager;
+
+
+
+
+/* 
+    Put a bool
+    Check for collision
+    After collision check for the bool (Player is or is not attacking)
+    If the bool is true - kill the enemy
+    If the bool is false - kill the player'
+*/
 
     private void Start()
     {
@@ -30,13 +41,24 @@ public class PlayerController : MonoBehaviour
         livesManager = FindObjectOfType<PlayerLivesManager>();
 
         respawnPoint = transform.position;
+
+
     }
     // Update is called once per frame
     void Update()
     {
         if (transform.position.y < killHeight)
             LoseLife();
-        
+
+        if (attacking == false)
+        { // Check the boolean value
+            Debug.Log("Attacking is False");
+        }
+        else
+        {
+            Debug.Log("Attacking is True");
+        }
+
     }
     void FixedUpdate()
     {
@@ -80,12 +102,12 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.E))
         {
-            print("Attack");
+            gameObject.GetComponent<Renderer>().material.color = newColor;
             attacking = true;
-            StopAttack();
-            attacking = false;
+            print("Attack");
+            StartCoroutine(StopAttack());
         }
-         }
+    }
 
     private IEnumerator StopAttack()
     {
@@ -93,9 +115,10 @@ public class PlayerController : MonoBehaviour
         print("Timer Started");
         yield return new WaitForSeconds(3);
         print("Timer Ended");
-
+        attacking = false;
+        gameObject.GetComponent<Renderer>().material.color = trueColor;
     }
-   
+
     private bool OnGround()
     {
         bool onGround = false;
@@ -117,10 +140,6 @@ public class PlayerController : MonoBehaviour
         // Reduce's players lives by 1
         lives--;
 
-        if (livesManager != null)
-        {
-            livesManager.LoseLife(); // Updates UI
-        }
         // Check if lives > 0 
         if (lives > 0)
         {
@@ -134,6 +153,18 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(1);
         }
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<Enemy>())
+        {
+
+            if (attacking = true)
+                other.GetComponent<Enemy>().Life--;
+            else if (attacking = false)
+                LoseLife();
+        }
     }
 
 }
