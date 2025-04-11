@@ -4,7 +4,8 @@ using UnityEngine;
 
 /*
  * Xavier Poston
- * 4/5/25
+ * Started:4/5/25
+ * Last Updated: 4/6/25
  * Handles teleporting players to a new point in the world 
  */
 public class Portal : MonoBehaviour

@@ -2,7 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
+/*
+ * Xavier Poston
+ * Started:4/8/25
+ * Last Updated: 4/10/25
+ * Handles Ui for wampa fruit and plus 1 life for 100 wumpas 
+ */
 public class WumpaFruitManger : MonoBehaviour
 {
     // Start is called before the first frame update

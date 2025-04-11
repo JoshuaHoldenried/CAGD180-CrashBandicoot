@@ -4,12 +4,13 @@ using TMPro;
 using UnityEngine;
 
 
-    /*
-  * Xavier Poston
-  * 4/6/25
-  * Handles ui and lives
-  */
-    public class PlayerLivesManager : MonoBehaviour
+/*
+* Xavier Poston
+* Started:4/6/25
+* Last Updated: 4/8/25
+* Handles Ui for lifes
+*/
+public class PlayerLivesManager : MonoBehaviour
     {
         public int lives = 3;
         public TextMeshProUGUI livesText;

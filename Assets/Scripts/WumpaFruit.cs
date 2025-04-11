@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Xavier Poston
+ * Started:4/8/25
+ * Last Updated: 4/10/25
+ * Handles wampa fuit
+ */
 public class WumpaFruit : MonoBehaviour
 {
     // Value of the WumpaFruit

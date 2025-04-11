@@ -2214,6 +2214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 115649790507699658}
+  - component: {fileID: 6287782710809443283}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -2267,6 +2268,21 @@ Transform:
   - {fileID: 8244158284762789175}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6287782710809443283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5708642562442834237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00993fdb9fc1ca441863a91a89913ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wumpaDropAmount: 5
+  wumpaFruitPrefab: {fileID: 6186333234827956988, guid: dbc91bbc8b4ff104ab5ab4564e4a27ee,
+    type: 3}
 --- !u!1 &6475933211631444935
 GameObject:
   m_ObjectHideFlags: 0

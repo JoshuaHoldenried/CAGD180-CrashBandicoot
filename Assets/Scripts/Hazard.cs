@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Xavier Poston
+ * Started:4/5/25
+ * Last Updated: 4/5/25
+ * Handles if the player hits something it will lose a life
+ */
 public class Hazard : MonoBehaviour
 {
     //checks for physcial collisisons with the player
