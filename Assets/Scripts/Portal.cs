@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- * Xavier Poston
+ * Joshua Holdenried && Xavier Poston 
  * 4/5/25
  * Handles teleporting players to a new point in the world 
  */

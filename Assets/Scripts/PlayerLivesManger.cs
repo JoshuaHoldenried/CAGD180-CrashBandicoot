@@ -4,16 +4,17 @@ using TMPro;
 using UnityEngine;
 
 
-    /*
-  * Xavier Poston
-  * 4/6/25
-  * Handles ui and lives
-  */
-    public class PlayerLivesManager : MonoBehaviour
+/*
+* Joshua Holdenried && Xavier Poston 
+* 4/6/25
+* Handles ui and lives
+*/
+public class PlayerLivesManager : MonoBehaviour
     {
         public int lives = 3;
         public TextMeshProUGUI livesText;
 
+  
         private void Start()
         {
             UpdateLivesUI(); // Ensure UI updates at game start
@@ -30,9 +31,12 @@ using UnityEngine;
 
         private void UpdateLivesUI()
         {
-            if (livesText != null)
+        gameObject.GetComponent<PlayerController>().LoseLife();
+
+        if (livesText != null)
             {
                 livesText.text = "Lives: " + lives;
             }
         }
-    }
+
+}

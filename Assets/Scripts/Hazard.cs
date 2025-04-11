@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/* Joshua Holdenried and Xavier Poston 
+* 4/6/25
+* Handles the enemies doing damnage to the player
+*/
+
 public class Hazard : MonoBehaviour
 {
     //checks for physcial collisisons with the player

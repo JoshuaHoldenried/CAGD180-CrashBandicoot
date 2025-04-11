@@ -11,7 +11,6 @@ using static Cinemachine.CinemachineFreeLook;
 public class Enemy : MonoBehaviour
 {
     public int Life = 1;
-    public PlayerController player;
 
     // Start is called before the first frame update
     void Start()
@@ -29,15 +28,6 @@ public class Enemy : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.GetComponent<PlayerController>())
-        {
-
-            if(player.attacking = true)
-            Life--;
-        }
-    }
 
 
 }
