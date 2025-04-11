@@ -2,15 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-<<<<<<< HEAD
-/*
- * Xavier Poston
- * Started:4/8/25
- * Last Updated: 4/10/25
- * Handles wampa fuit
- */
-=======
-using UnityEngine.UIElements;
+
 
 
 /*
@@ -19,7 +11,7 @@ using UnityEngine.UIElements;
 * Handles the player collecting the wumpa fruit, and tracking the wumpa fruit in the UI
 */
 
->>>>>>> 0cd5db3dd5bffce385b87d70946ec3184039d2f1
+
 public class WumpaFruit : MonoBehaviour
 {
     // Value of the WumpaFruit
