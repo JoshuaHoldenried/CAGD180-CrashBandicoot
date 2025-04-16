@@ -25,7 +25,7 @@ public class EnemyMovement : MonoBehaviour
 
         //Store the starting position values of the left and right points
         leftStart = leftPoint.position;
-        rightStart = rightPoint.position;
+        rightStart = rightPoint.position;   
 
     }
 

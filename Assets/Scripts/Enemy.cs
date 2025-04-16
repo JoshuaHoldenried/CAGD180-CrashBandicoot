@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Cinemachine.CinemachineFreeLook;
+using static Cinemachine.DocumentationSortingAttribute;
 
-/* Joshua Holdenried && Xavier Poston 
+/* Joshua Holdenried
  * First Updated: 4/8/25
  * Last Updated:  4/8/25
  * This script allows the player to move around the levels
@@ -11,23 +12,26 @@ using static Cinemachine.CinemachineFreeLook;
 public class Enemy : MonoBehaviour
 {
     public int Life = 1;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
     void Update()
     {
-        if(Life == 0)
+
+        // If the enemy has their life go down to -
+        if (Life == 0)
         {
             Destroy(gameObject);
         }
+
+
+    }
+    public void EnemyLoseLife()
+    {
+        // Reduce's players lives by 1
+        Life--;
     }
 
 
 
-
-}
+    }

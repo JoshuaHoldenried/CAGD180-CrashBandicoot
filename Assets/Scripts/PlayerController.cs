@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 /* Joshua Holdenried && Xavier Poston 
  * First Updated: 4/6/25
- * Last Updated:  4/6/25
+ * Last Updated:  4/15/25
  * This script allows the player to move around the levels
  */
 public class PlayerController : MonoBehaviour
@@ -115,6 +115,7 @@ public class PlayerController : MonoBehaviour
         print("Timer Started");
         yield return new WaitForSeconds(3);
         print("Timer Ended");
+        print("Attack Stopped");
         attacking = false;
         gameObject.GetComponent<Renderer>().material.color = trueColor;
     }
@@ -155,17 +156,28 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+
+
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.GetComponent<Enemy>())
+        if (other.gameObject.GetComponent<Enemy>())
         {
 
-            if (attacking = true)
-                other.GetComponent<Enemy>().Life--;
-            else if (attacking = false)
+            print("Player Attacked The Enemy");
+            if (attacking == true)
+            {
+                other.gameObject.GetComponent<Enemy>().EnemyLoseLife();
+            }
+            else if (attacking == false)
+            {
+                print("Enemy Attacked Player");
                 LoseLife();
+            }
+
         }
+
     }
 
+   
 }
 
