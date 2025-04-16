@@ -6,19 +6,19 @@ public class MovingPlatform : MonoBehaviour
 {
     public Vector3 direction;
     public float speed;
-    public Transform leftPoint;
-    public Transform rightPoint;
+    public Transform fwdPoint;
+    public Transform backPoint;
 
-    private Vector3 leftStart;
-    private Vector3 rightStart;
+    private Vector3 fwdStart;
+    private Vector3 backStart;
 
     // Start is called before the first frame update
     void Start()
     {
-        direction = Vector3.left;
+        direction = Vector3.forward;
 
-        leftStart = leftPoint.position;
-        rightStart = rightPoint.position;
+        fwdStart = fwdPoint.position;
+        backStart = backPoint.position;
     }
 
     // Update is called once per frame
@@ -36,15 +36,15 @@ public class MovingPlatform : MonoBehaviour
         transform.position += direction * speed * Time.deltaTime;
 
         //check if platform moved more than rightPoint on the x axis
-        if (transform.position.x >= rightStart.x)
+        if (transform.position.z <= backStart.z)
         {
-            direction = Vector3.left;
+            direction = Vector3.forward;
         }
 
         //check if platform moved more than rightPoint on the x axis
-        if (transform.position.x <= leftStart.x)
+        if (transform.position.z >= fwdStart.z)
         {
-            direction = Vector3.right;
+            direction = Vector3.back;
         }
     }
 
