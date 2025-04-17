@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 /*
-* Joshua Holdenried && Xavier Poston
+* Xavier Poston
 * Started:4/6/25
 * Last Updated: 4/17/25
 * Handles Ui for lifes

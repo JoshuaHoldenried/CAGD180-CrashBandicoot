@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+*Xavier Poston
+* 4/15/25
+* Handles the paltform movement, while on the Z axis
+*/
+
 public class MovingPlatform : MonoBehaviour
 {
     public Vector3 direction;

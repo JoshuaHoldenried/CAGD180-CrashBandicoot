@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-/* Joshua Holdenried and Xavier Poston 
+/* Joshua Holdenried
 * First Updated: 4/6/25
 * Last Updated: 4/15/25
 * Handles the enemies doing damnage to the player

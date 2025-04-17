@@ -4,7 +4,7 @@ using UnityEngine;
 
 /*
 <<<<<<< HEAD
- * Xavier Poston && Joshua Holdenried
+ * Xavier Poston
  * Started:4/5/25
  * Last Updated: 4/6/25
  */

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-/* Joshua Holdenried && Xavier Poston 
+/* Joshua Holdenried
  * First Updated: 4/6/25
  * Last Updated:  4/17/25
  * This script allows the player to move around the levels

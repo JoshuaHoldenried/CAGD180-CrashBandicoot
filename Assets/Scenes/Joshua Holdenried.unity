@@ -256,8 +256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0, z: 0}
   speed: 20
-  leftPoint: {fileID: 52073164}
-  rightPoint: {fileID: 841981598}
+  fwdPoint: {fileID: 0}
+  backPoint: {fileID: 0}
 --- !u!65 &149514999
 BoxCollider:
   m_ObjectHideFlags: 0

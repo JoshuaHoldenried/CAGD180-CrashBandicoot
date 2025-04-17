@@ -6,7 +6,7 @@ using UnityEngine;
 
 
 /*
-*Joshua Holdenried && Xavier Poston
+*Xavier Poston
 * 4/6/25
 * Handles the player collecting the wumpa fruit, and tracking the wumpa fruit in the UI
 */
