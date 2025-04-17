@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/* Joshua Holdenried and Xavier Poston
+/* Joshua Holdenried
  * First Updated: 4/10/25
  * Last Updated: 4/10/25
  * Handles the enemy movement from left to right while on the ground
