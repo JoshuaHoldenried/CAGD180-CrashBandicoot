@@ -7,37 +7,39 @@ using UnityEngine;
 /*
 * Joshua Holdenried && Xavier Poston
 * Started:4/6/25
-* Last Updated: 4/8/25
+* Last Updated: 4/17/25
 * Handles Ui for lifes
 */
 public class PlayerLivesManager : MonoBehaviour
+{
+    public int lives = 3;
+    public TextMeshProUGUI livesText;
+
+    private void Start()
     {
-        public int lives = 3;
-        public TextMeshProUGUI livesText;
+        UpdateLivesUI(); // Ensure UI updates at game start
+    }
 
-  
-        private void Start()
+    public void LoseLife()
+    {
+        if (lives > 0)
         {
-            UpdateLivesUI(); // Ensure UI updates at game start
+            lives--;
+            UpdateLivesUI(); // Update UI whenever lives decrease
         }
+    }
+    public void AddLife()
+    {
+        lives++;
+        UpdateLivesUI();
+    }
 
-        public void LoseLife()
-        {
-            if (lives > 0)
-            {
-                lives--;
-                UpdateLivesUI(); // Update UI whenever lives decrease
-            }
-        }
-
-        private void UpdateLivesUI()
-        {
-        gameObject.GetComponent<PlayerController>().LoseLife();
-
+    private void UpdateLivesUI()
+    {
         if (livesText != null)
-            {
-                livesText.text = "Lives: " + lives;
-            }
+        {
+            livesText.text = "Lives: " + lives;
         }
-
+    }
 }
+

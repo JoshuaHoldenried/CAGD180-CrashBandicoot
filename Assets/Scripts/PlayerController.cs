@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 /* Joshua Holdenried && Xavier Poston 
  * First Updated: 4/6/25
- * Last Updated:  4/15/25
+ * Last Updated:  4/17/25
  * This script allows the player to move around the levels
  */
 public class PlayerController : MonoBehaviour
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 respawnPoint;
     public bool attacking = false;
 
-    private PlayerLivesManager livesManager;
+    public PlayerLivesManager livesManager;
 
 
 
@@ -140,6 +140,7 @@ public class PlayerController : MonoBehaviour
     {
         // Reduce's players lives by 1
         lives--;
+        livesManager.LoseLife();
 
         // Check if lives > 0 
         if (lives > 0)
@@ -151,10 +152,16 @@ public class PlayerController : MonoBehaviour
         {
             // Game Over
             print("Game Over");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
 
     }
+
+    public void UpdateCheckpoint(Vector3 newCheckpoint)
+    {
+        respawnPoint = newCheckpoint;
+    }
+
 
 
 

@@ -54,7 +54,7 @@ public class WumpaFruit : MonoBehaviour
 
     public void WumpaFruitUI()
     {
-        GetComponent<WumpaFruitManger>().WumpaFruitText.text = "WumpaFruit: " + wumpaFruit++;
+        GetComponent<WumpaFruitManger>().wumpaFruitText.text = "WumpaFruit: " + wumpaFruit++;
 
 
     }
