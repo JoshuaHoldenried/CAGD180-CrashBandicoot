@@ -25,7 +25,7 @@ public class EnemyMovement : MonoBehaviour
 
         //Store the starting position values of the left and right points
         leftStart = leftPoint.position;
-        rightStart = rightPoint.position;   
+        rightStart = rightPoint.position;
 
     }
 
@@ -46,11 +46,13 @@ public class EnemyMovement : MonoBehaviour
         if (transform.position.x >= rightStart.x)
         {
             direction = Vector3.left;
+            transform.Rotate(0, 180, 0);
         }
 
         if (transform.position.x <= leftStart.x)
         {
             direction = Vector3.right;
+            transform.Rotate(0, 180, 0);
         }
     }
 }
