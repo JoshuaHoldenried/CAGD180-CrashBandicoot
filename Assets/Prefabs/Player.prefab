@@ -100,10 +100,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crashBandicoot: {fileID: 1001788842987352823}
   newColor: {r: 1, g: 0, b: 0, a: 0}
+  trueColor: {r: 0.6039216, g: 0.29411766, b: 0.14901961, a: 0}
   speed: 5
+  jumpRayCast: 2.2
   lives: 3
   JumpForce: 10
   killHeight: -5
+  attacking: 0
+  livesManager: {fileID: 0}
 --- !u!136 &3759775363078964029
 CapsuleCollider:
   m_ObjectHideFlags: 0

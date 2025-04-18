@@ -11,12 +11,22 @@ using UnityEngine.SceneManagement;
     {
         public void QuitGame()
         {
+            print("Quit Game");
             Application.Quit();
         }
 
-        public void SwitchScene(int sceneIndex)
+        public void MainMenu(int sceneIndex)
         {
-           SceneManager.LoadScene(3);
-    }
-    }
+           SceneManager.LoadScene(1);
+        }
+        public void TryAgain(int sceneIndex)
+        {
+        SceneManager.LoadScene(0);
+        }
+        public void Play(int sceneIndex)
+        {
+        SceneManager.LoadScene(0);
+        }
+
+}
 
