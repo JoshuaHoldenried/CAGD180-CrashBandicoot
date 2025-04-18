@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-/* Joshua Holdenried
+/* Joshua Holdenried & Xavier Poston
  * First Updated: 4/6/25
  * Last Updated:  4/17/25
  * This script allows the player to move around the levels
@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public Color newColor;
     public Color trueColor;
     public float speed = 5f;
+    public float jumpRayCast;
     public int lives;
     public float JumpForce = 10;
     public float killHeight = -5;
@@ -52,11 +53,11 @@ public class PlayerController : MonoBehaviour
 
         if (attacking == false)
         { // Check the boolean value
-            Debug.Log("Attacking is False");
+            print("Attacking is False");
         }
         else
         {
-            Debug.Log("Attacking is True");
+            print("Attacking is True");
         }
 
     }
@@ -91,6 +92,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && OnGround())
         {
             print("Jumped");
+            rigidbody.velocity = Vector3.zero;
             rigidbody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
         }
     }
@@ -117,7 +119,7 @@ public class PlayerController : MonoBehaviour
         print("Timer Ended");
         print("Attack Stopped");
         attacking = false;
-        gameObject.GetComponent<Renderer>().material.color = trueColor;
+        gameObject.GetComponent<Renderer>().material.color = trueColor;        
     }
 
     private bool OnGround()
@@ -126,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, 1.2f))
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, jumpRayCast))
         {
             onGround = true;
         }
